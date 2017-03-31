@@ -1,0 +1,16 @@
+//Error located/explained.
+
+var firstName = "Julia";
+var lastName = "Roberts";
+var fullName = firstName + lastname; //The error occurs here "lastname is not defined. It should be written lastName as that variable was previously defined on line 2"
+
+console.log(fullName); // Julia Roberts
+
+
+//Corrected code.
+
+var firstName = "Julia";
+var lastName = "Roberts";
+var fullName = firstName + lastName; //Corrected variable name so code executes as expected. Modified to include space between firstName and lastName.
+
+console.log(fullName); // Julia Roberts
